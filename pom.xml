@@ -90,13 +90,13 @@
             <artifactId>stripe-java</artifactId>
             <version>31.0.0</version>
         </dependency>
-	</dependencies>
-	<!-- PostgreSQL ドライバの例 -->
+        <!-- PostgreSQL ドライバの例 -->
 <dependency>
   <groupId>org.postgresql</groupId>
   <artifactId>postgresql</artifactId>
   <version>42.7.3</version>
 </dependency>
+	</dependencies>
 
 
 	<build>
