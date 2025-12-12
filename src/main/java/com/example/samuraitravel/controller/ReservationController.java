@@ -89,7 +89,8 @@ public class ReservationController {
                           @AuthenticationPrincipal UserDetailsImpl userDetailsImpl, 
                           HttpServletRequest httpServletRequest,
                           Model model) 
-    {        
+    {   
+    	    	
         House house = houseRepository.getReferenceById(id);
         User user = userDetailsImpl.getUser(); 
                 
